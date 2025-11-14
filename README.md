@@ -1,7 +1,7 @@
 # README_LD.txt
 
 ## Unity Version
-**Unity 6.4 (6000.4.0a2)**  
+**Unity 6 (6000.0.062f1)**  
 2D URP (Universal Render Pipeline).
 
 ---
