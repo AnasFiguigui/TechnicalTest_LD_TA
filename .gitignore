@@ -1,0 +1,173 @@
+# ===============================
+# UNITY PROJECT GITIGNORE
+# ===============================
+# Place this at the root of your Unity project
+
+# ========== Unity Core ==========
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Rr]ecordings/
+
+# Log files
+Logs/*.log
+Logs/shadercompiler-*.log
+Logs/AssetImportWorker*.log
+
+# Memory/recording files
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.stacktrace
+
+# Lightmaps, NavMesh, probe data, cache files
+*.bak
+*.backup
+*.tmp
+*.generated
+LightingData.asset
+NavMesh.asset
+ReflectionProbe-*.exr
+
+# Autosaves and backups
+Assets/**/Backup/
+Assets/**/AutoSaves/
+Assets/**/Autosave/
+Assets/**/TestScenes/
+Assets/**/Temp/
+Assets/**/Debug/
+
+# ========== IDE / Editor ==========
+.vscode/
+.vs/
+.idea/
+.vsconfig
+
+# JetBrains Rider
+/Assets/Plugins/Editor/JetBrains*
+
+# Solution/project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend11
+/Assets/Models/GameElements/Envirenment/Objet/Envirenment.blend1
+/Assets/Models/GameElements/Envirenment/Envirenment.blend1
+
+# Crash reports
+sysinfo.txt
+
+# Unity meta files not needed
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ========== OS/System Files ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========== Gradle (Android) ==========
+.gradle/
+
+# ========== Build Artifacts ==========
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ========== Addressables ==========
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/*
+
+# ========== Git LFS (if used) ==========
+*.lfs
+
+# ========== Unity Package Manager ==========
+# (Keep packages-lock.json for package version syncing!)
+# DO NOT ignore this file:
+# Packages/packages-lock.json ✅ KEEP IT
+
+# ========== FMOD ==========
+# Keep these FMOD files:
+!Assets/Plugins/FMOD/**/lib/*
+!Assets/Gizmos/FMOD/*
+!Assets/Editor Default Resources/FMOD/*
+
+# Ignore these FMOD cache/log files:
+Assets/Plugins/FMOD/Cache/*
+Assets/StreamingAssets/**/*.bank
+Assets/StreamingAssets/**/*.bank.meta
+Assets/FMODStudioCache.asset
+Assets/FMODStudioCache.asset.meta
+Assets/StreamingAssets/*.bank
+fmod_editor.log
+fmod.log
+FMOD/**.user
+FMOD/**.unsaved
+FMOD/**.cache
+FMOD/**.restore
+
+# ========== UHFPS ==========
+Assets/UHFPS Kits/UHFPS/_Demo/
+Assets/UHFPS Kits/UHFPS/Integrations/
+Assets/Data/SavedGame/
+
+# ========== Emerald AI ==========
+Assets/Emerald AI 3.0/Demo/
+Assets/Emerald AI 3.0/Example Scenes/
+Assets/Emerald AI 3.0/Tutorials/
+Assets/Emerald AI 3.0/Integrations/
+Assets/Emerald AI 3.0/Resources/EmeraldSaveData/
+
+# ========== DOTween (Demigiant) ==========
+Assets/Demigiant/DoTween/Editor/DOTweenSettings.asset
+
+# ========== Easy Save 3 ==========
+Assets/Plugins/EasySave3/Resources/ES3Settings.asset
+
+# ========== Odin Inspector ==========
+Assets/Plugins/Sirenix/Assemblies/Editor/OdinEditorConfig.asset
+
+# ========== Cinemachine ==========
+# No ignore needed unless you generate custom logs
+
+# ========== Invector ==========
+Assets/Invector/Editor/EditorPreferences.asset
+
+# ========== Optional Custom Scenes (editable) ==========
+# If you use test playgrounds, exclude only unused ones
+# !Assets/UHFPS Kits/UHFPS/_Demo/Scenes/YourCustomTestScene.unity
+
+# ========== Custom Assets ==========
+# Add any custom assets or directories you want to ignore here
+
+large_files.txt
+
+# =============== Fonts ================
+# Assets/reda/UI/Fonts/Horror Font/JosefinSans-VariableFont_wght SDF.asset
+
+Assets/Models/GameElements/Envirenment/Envirenment.blend1.meta
+Assets/Models/GameElements/Candle.blend1.meta
+Assets/Models/GameElements/Car/UnoCar.blend1.meta
